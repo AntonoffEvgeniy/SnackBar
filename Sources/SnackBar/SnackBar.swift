@@ -113,11 +113,11 @@ public extension SnackBar {
         
         private init() {}
         
-        var interval = Constants.Duration.visibility
-        var maxNumberOfLines = Constants.maxNumberOfLines
-        var backgroundColor: UIColor = .red
-        var font: UIFont = .systemFont(ofSize: 12)
-        var textColor: UIColor = .black
-        var textAlignment: NSTextAlignment = .left
+        public var interval = Constants.Duration.visibility
+        public var maxNumberOfLines = Constants.maxNumberOfLines
+        public var backgroundColor: UIColor = .red
+        public var font: UIFont = .systemFont(ofSize: 12)
+        public var textColor: UIColor = .black
+        public var textAlignment: NSTextAlignment = .left
     }
 }
